@@ -8,6 +8,8 @@
     </div>
     {% unless posts_total == 0 %}
       <div class="my-6">
+        {% include bio.html %}
+        {% include links.html %}
         {% include thoughts.html %}
       </div>
     {% endunless %}
