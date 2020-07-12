@@ -18,8 +18,10 @@ defaults:
 
 # decoupling page from github variables
 email: echandifelipe@gmail.com
-bio: Testing bio in config yml
+bio: Constantly checking my assumptions. #Anwers the question: Who am I?
 name: Felipe Echandi
+why: I deeply care about improving people's lives with my work, which fuels me to improve myself.      #Answers the question: Para qué hago lo que hago?
+what: I co-founded <a href="https://web.cuanto.app/en" {% if site.style == 'dark' %}class="text-white"{% endif %}>Cuanto</a> (YCW19) to give Latin American creators a chance to live from the internet. #Answers the question: Que hago?
 
 social_media:
   # behance: your_username
