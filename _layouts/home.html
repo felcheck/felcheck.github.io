@@ -26,9 +26,9 @@
           </div>
         {% endunless %}
 
-        {% if site.topics %}
-          {% include interests.html %}
-        {% endif %}
+        {% include bio.html %}
+
+        {% include links.html %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
